@@ -1,0 +1,156 @@
+/* .card67 {
+    width: 250px;
+    height: 400px;
+    transition: all 0.2s;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .card89-inner {
+    width: inherit;
+    height: inherit;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+  }
+  
+  .card67:hover {
+    transform: scale(1.04) rotate(1deg);
+  }
+  
+  .circle89 {
+    width: 100px;
+    height: 100px;
+    background: repeating-linear-gradient(48deg, #5db3ff 0%, #ff865e 100%);
+    border-radius: 35% 30% 75% 30% / 49% 30% 70% 51%;
+    position: absolute;
+    animation: move-up6 2s ease-in infinite alternate-reverse;
+  }
+  
+  .circle89:nth-child(1) {
+    top: -25px;
+    left: -25px;
+  }
+  
+  .circle89:nth-child(2) {
+    bottom: -25px;
+    right: -25px;
+    animation-name: move-down1;
+  }
+  
+  @keyframes move-up6 {
+    to {
+      transform: translateY(-10px);
+    }
+  }
+  
+  @keyframes move-down1 {
+    to {
+      transform: translateY(10px);
+    }
+  }
+   */
+
+
+
+
+
+
+   .cardContainer {
+    width: 200px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition-duration: .5s;
+    cursor: pointer;
+  }
+  .profileDiv img{
+    height:200px;
+    border-radius:5px;
+    margin:3px;
+  }
+  .profileDiv {
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(24, 24, 24);
+    transition-duration: .5s;
+    color: rgb(155, 155, 155);
+    font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .cardContainer:hover .profileDiv {
+    transform: translateX(-25%) translateY(-20%);
+    transition-duration: .5s;
+  }
+  
+  .infoDiv {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    z-index: 1;
+  }
+  
+  .nameDiv {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: aliceblue;
+    font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    gap: 2px;
+  }
+  
+  .name {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+  }
+  
+  .role {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(48, 48, 48);
+    margin-bottom: 5px;
+  }
+  
+  .socialDiv {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(14, 14, 14);
+    gap: 25px;
+  }
+  
+  .infoDiv a {
+    width: 50%;
+  }
+  
+  .socials {
+    width: 100%;
+    fill: rgb(14, 14, 14);
+  }
+  
